@@ -3,7 +3,7 @@
     "tailwindcss": "^3.3.3"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./Tailwind/tailwind.css -o ./dist/output.css",
-    "dev": "npx tailwindcss -i ./Tailwind/tailwind.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./Tailwind/tailwind.css -o ./public/output.css",
+    "dev": "npx tailwindcss -i ./Tailwind/tailwind.css -o ./public/output.css --watch"
   }
 }
